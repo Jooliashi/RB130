@@ -101,7 +101,7 @@ class TodoList
     todos.each do |todo|
       text << todo.to_s + "\n"
     end
-    text
+    text.chomp
   end
 
   def each
